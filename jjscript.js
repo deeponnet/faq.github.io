@@ -1,0 +1,19 @@
+$("#q1").click(function()
+	{
+		$("#a1").toggleClass("collapse");
+		$("#c11").toggleClass("collapse");
+		$("#c12").toggleClass("collapse");
+		
+	});
+$("#q2").click(function()
+	{
+		$("#a2").toggleClass("collapse");
+		$("#c21").toggleClass("collapse");
+		$("#c22").toggleClass("collapse");
+	});
+$("#q3").click(function()
+	{
+		$("#a3").toggleClass("collapse");
+		$("#c31").toggleClass("collapse");
+		$("#c32").toggleClass("collapse");
+	});
